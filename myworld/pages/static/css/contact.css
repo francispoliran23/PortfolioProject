@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: "Helvetica Now Display DW", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5625rem;
+    letter-spacing: normal;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding-top: 5px;
+    font-weight: 400;
+    letter-spacing: .4em;
+    color: #878a8f;
+
+}
+p{
+    
+    font-weight: 500;
+    color: #5e5e5f;
+    letter-spacing: normal;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    display: block;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+ 
+}

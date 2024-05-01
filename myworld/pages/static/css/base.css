@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  font-family: "Helvetica Now Display DW", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5625rem;
+
+  letter-spacing: normal;
+  background-repeat: no-repeat;
+
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px 0;
+  text-align: center;
+
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+  padding: 0 10px;
+  align-items: center;
+}
+
+header a:hover {
+  color: #555;
+}
+#logo{
+  width: 90;
+  height: 60px;
+  margin-right: 20px;
+  float: left;
+  margin-top: -18px;
+}
+
+
+

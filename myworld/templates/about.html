@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+<body id="bg" style="background-image: url('{% static 'css/images/covwer2.svg' %}');">
+<section>
+  <link rel="stylesheet" href="{% static 'css/about.css' %}">
+  <div class="about">
+    <h1>About me</h1>
+    <p>
+      I am a designer, proficient in Figma and Photoshop,,<br> 
+      and also skilled in video editing. In addition to my design skills, <br>
+      I am a passionate developer with a strong commitment to continuous learning. <br>
+      In my free time, I enjoy playing badminton, boxing, and hitting the gym.
+    </p>
+    <div class="stack">
+      <h2>Web Dev Stack</h2>
+      <p>Django</p>
+      <p>Javascript</p>
+      <p>HTML</p>
+      <p>CSS</p>
+  
+          
+      <h2>Design Tools</h2>
+      <p>Figma</p>
+      <p>Photoshop</p>
+    </div>  
+  </div>
+</section>
+</body>
+</html>
+{% endblock content %}

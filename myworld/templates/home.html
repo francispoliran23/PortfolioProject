@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body id="bg" style="background-image: url('{% static 'css/images/back.svg' %}');">
+
+    <section>
+        <div class="landingpage">
+          
+            <h1>FRANCIS G. POLIRAN</h1>
+            <h2>Website and user <br><br><br>interface designer</h2>
+            <p>
+                <strong></strong> captivating digital experiences through code and creativity.<br> I strive to create user-friendly and visually appealing websites.
+                <br> My goal is to collaborate with clients to bring their visions to life and deliver<br>exceptional digital solutions.
+                Let's build something remarkable together!</strong>
+            </p>
+            <a href="https://github.com/francispoliran23/portfolio.git" target="_blank" style="float: left;">
+                <img src="{% static 'css/images/github.png' %}" alt="GitHub" style="width: 24px; height: 24px;">
+            </a>
+        </div>
+    </section>
+</body>
+</html>
+
+{% endblock content %}
